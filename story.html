@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+	
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Music Scene</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+	
+	
+<header id='main-header'>
+	
+	<div class= "rightx"><img alt='Logo' class='splash' src="img/logo.png"></div>
+	
+<div class= "right"><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></div>
+	<div class= "left"><button onclick="location.href='signUp.html';" style="width:auto;">Sign Up</button></div>	
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+	  
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="container1">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container1" style="background-color:#f1f1f1">
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+	
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+	
+	<div class= "searchInput">
+		
+		<form style="text-align: right">
+			<p><input type="text" name="search" placeholder="Search.."></p>
+        </form>
+  
+    </div>
+
+  <div class='container'>
+    
+	  <a class='logo' href='#'>Music Scene</a>
+    	<nav>
+      	<a class="active" href="index.html">Home</a>
+      	<a href="news.html">News</a>
+		<a href="review.html">Reviews</a>
+		<a href="events.html">Events</a>
+      	<a href="about.html">About Us</a>
+    	</nav>
+  </div>
+	
+</header>
+
+<body>
+	<div id='stories1'>
+	<div>
+        <h2>Carry on Camping: Ed Sheeran's manager goes it alone from Rocket Music</h2>
+        <h4>By Mark Sutherland - Febuary 12th 2018</h4>
+		<p>
+			Stuart Camp – manager of the world’s biggest current star, Ed Sheeran – is to take his management operation fully independent after a decade with Sir Elton John’s Rocket Music.<br><br>
+
+The amicable split will see Camp operate his Grumpy Old Management operation independently. For the last three years, it has been run as a JV with Rocket. Camp originally joined Rocket in 2007, having previously been a label executive at Atlantic Records, and signed Sheeran in 2011.<br>
+<br>
+“Rocket was a great home to me for 10 years,” said Camp. “With invaluable support and care from Elton and everyone there, which I will always be grateful for.”<br><br>
+
+“After many incredible years of working together I would like to wish a heartfelt and fond farewell to Ed, Stuart and his team, with whom we have shared some amazing moments over nearly a decade long relationship,” said Sir Elton. “It has been a very rewarding and exciting experience supporting them through their fantastic journey. We are immensely proud of all our achievements together and look forward to seeing Stu's company and Ed’s success go from strength to strength.”<br><br>
+
+Camp has steered Sheeran to superstardom, with the singer-songwriter scoring the biggest-selling album of last year in the UK and worldwide. He was Music Week’s Artist Of The Year in 2017, attracted a string of accolades and smashed streaming records on his way to 2,822,365 UK sales of ÷, according to the Official Charts Company.<br><br>
+
+“For me, [2017 was] just cementing the position we were in,” Camp told Music Week in December. “It’s proving that nothing was a fluke and he’s worked hard enough and is talented enough. We’ve shown he does deserve to be where he is and it really couldn’t have gone better. It’d be hard to find anything we’re genuinely disappointed with.”<br><br>
+
+Rocket Music has recently expanded its operations as well. Music Week exclusively revealed in September that it had set up a joint venture with Black Fox Management, who look after 2017’s biggest breakout star, Rag’N’Bone Man. It also plans to develop its label.<br><br>
+
+Elton John recently announced plans for his touring retirement, with an epic farewell set of 300 dates due to start in September. Sheeran will play stadiums in the UK this May and June.
+		<br><br>
+		</p>
+      </div>
+	</div>
+	
+	<div id='main-footer'>
+	<a class='button' href='https://www.facebook.com/'><img alt='Facebook' src="img/Facebook.png" width="50"></a>
+	<a class='button' href='https://www.instagram.com/?hl=en'><img alt='Instagram' src="img/instagram.png" width="50"></a>
+	<a class='button' href='https://twitter.com/?lang=en'><img alt='Twitter' src="img/twitter.png" width="50"></a>
+	<a class='button' href='https://create.snapchat.com/'><img alt='Snapchat' src="img/snapchat.png" width="50"></a>
+  <p>Ellen Culloo&copy 2018</p>
+</div>
+	
+</body>
+
+</html>

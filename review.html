@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Music Scene</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+	
+<header id='main-header'>
+	<div class= "rightx"><img alt='Logo' class='splash' src="img/logo.png"></div>
+	
+<div class= "right"><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></div>
+	<div class= "left"><button onclick="location.href='signUp.html';" style="width:auto;">Sign Up</button></div>	
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+	  
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="container1">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container1" style="background-color:#f1f1f1">
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+	
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+	
+	<div class= "searchInput">
+		
+		<form style="text-align: right">
+			<p><input type="text" name="search" placeholder="Search.."></p>
+        </form>
+  
+    </div>
+
+  <div class='container'>
+    
+	  <a class='logo' href='#'>Music Scene</a>
+    	<nav>
+      	<a href="index.html">Home</a>
+      	<a href="news.html">News</a>
+		<a class="active" href="review.html">Reviews</a>
+		<a href="events.html">Events</a>
+      	<a href="about.html">About Us</a>
+    	</nav>
+  </div>
+	
+</header>
+
+<body>
+	
+<div class='container' id='news'>
+  
+	<article>
+		<h2>Article Reviews and Comments</h2>
+		<img alt='user' src="img/person%20icon.png" width="100">
+		<h4>Article Title : Ed Sheeran Manager <br> User: IomzK95</h4>
+		<p>The last time Ed appeared in Dublin, he played multiple nights in the significantly larger Croke Park, so this two-night stand in the relatively tiny three arena is as small as it gets in his Wembley stadium headlining universe. It’s mind-boggling to consider that he headlined Croker for two nights in 2015 on the back of just two albums. Blue chip names such as Bruce Springsteen and U2 spent a good chunk of their entire careers to reach this stature.</p>
+		<hr>
+		<img alt='user' src="img/person%20icon.png" width="100">
+		<h4>Article Title : New Wave of rock music <br> User: Joe Bloggs</h4>
+		<p>Amidst a sea of bands jumpingon the new rock bandwagon, Papa Roach stands out with an appealing sound that candeliver a rocking performance. As the chorus to one of their songs says,"We're going to infest, we're getting in your head." Papa Roach isready to rock the music world, and they will get in your head.</p>
+		<hr>
+		<img alt='user' src="img/person%20icon.png" width="100">
+		<h4>Article Title :  <br> User:  </h4>
+		<p>Text</p>
+		
+		<h4>You must be a member to post a review</h4>
+  </article>
+	
+</div>
+	
+<div id='main-footer'>
+	<a class='button' href='https://www.facebook.com/'><img alt='Facebook' src="img/Facebook.png" width="50"></a>
+	<a class='button' href='https://www.instagram.com/?hl=en'><img alt='Instagram' src="img/instagram.png" width="50"></a>
+	<a class='button' href='https://twitter.com/?lang=en'><img alt='Twitter' src="img/twitter.png" width="50"></a>
+	<a class='button' href='https://create.snapchat.com/'><img alt='Snapchat' src="img/snapchat.png" width="50"></a>
+  <p>Ellen Culloo&copy 2018</p>
+</div>
+	
+	</body>
+</html>

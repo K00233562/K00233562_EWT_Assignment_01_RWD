@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+	
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Music Scene</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+	
+	
+<header id='main-header'>
+	
+	<div class= "rightx"><img alt='Logo' class='splash' src="img/logo.png"></div>
+<div class= "right"><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></div>
+	<div class= "left"><button onclick="location.href='signUp.html';" style="width:auto;">Sign Up</button></div>	
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+	  
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="container1">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container1" style="background-color:#f1f1f1">
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+	
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+	
+	<div class= "searchInput">
+		
+		<form style="text-align: right">
+			<p><input type="text" name="search" placeholder="Search.."></p>
+        </form>
+  
+    </div>
+
+  <div class='container'>
+    
+	  <a class='logo' href='#'>Music Scene</a>
+    	<nav>
+      	<a href="index.html">Home</a>
+      	<a href="news.html">News</a>
+		<a href="review.html">Reviews</a>
+		<a href="events.html">Events</a>
+      	<a href="about.html">About Us</a>
+    	</nav>
+  </div>
+	
+</header>
+
+<body>
+	<div id='stories1'>
+	<div>
+		<h2>Jimmy Kimmel Slams Donald Trump Again for Oscars Ratings Tweet</h2>
+        <h4>By Katie Kilkenny - March 6th 2018</h4>
+		<p>
+			Following his spat with Donald Trump about the Oscar's lowest-ever ratings early Tuesday, Jimmy Kimmel followed up with more shots at the president on Jimmy Kimmel Live! on ABC.<br><br>
+
+Early Tuesday, Trump had tweeted of the March 4 ceremony, hosted for the second time by Kimmel, "Lowest rated Oscars in HISTORY. Problem is, we don’t have Stars anymore - except your President (just kidding, of course)!"<br><br>
+
+Soon after, Kimmel responded on Twitter, "Thanks, lowest rated President in HISTORY."<br><br>
+
+On Jimmy Kimmel Live! on Tuesday night, Kimmel slammed Trump once more, telling the story of how he came to see the tweet. He said he woke up that morning and got a text that told him to look at Trump's twitter account. "As if I don't already do that every morning," Kimmel joked.<br><br>
+
+After reciting the text of Trump's tweet, Kimmel got serious. "But the truth is, every year since Netflix happened, the ratings are down for every big TV event: the Super Bowl, the Grammys, the Emmys, the Golden Globes." He added that Trump thinks he's responsible for ratings being down, but that he got the last laugh, since, "My tweet [responding to Trump] got twice as many likes as his tweet."<br><br>
+
+"I know that's the thing that will get under his orange skin," Kimmel joked.<br><br>
+
+Kimmel then noted that Trump often has a problem with the Academy Awards, but that he might like 2018's best picture winner, The Shape of Water. "It's about a monster that has sex with a woman who can't talk about it. It's like his life story," Kimmel joked, referring to the alleged "hush agreement" Trump has with adult film actress Stormy Daniels, who reportedly has said she had an extramarital affair with Trump in 2006. On Tuesday Daniels sued Trump, arguing that because Trump never signed a $130,000 settlement arranged by Trump lawyer Michael Cohen in 2016, her contract not to speak about Trump is invalid.<br><br>
+
+Kimmel also discussed a tweet by Donald Trump Jr., who embedded a tweet from someone who asked who else didn't watch the Academy Awards. Trump Jr. responded with a raised-hand emoji. "If you look closely you know that's an authentic trump hand because it's gold and tiny," Kimmel said.<br><br>
+
+Kimmel finally addressed Mike Young, who was one of the moviegoers who was surprised with snacks by Oscar nominees during one of the Sunday-night ceremony's skits. Young told Access Hollywood that he had wanted to get Sour Patch kids from the baskets being offered by the likes of Gal Gadot and Margot Robbie, but instead got three packs of Junior Mints. "What can I say, we screwed up? That's on me, that is on me," Kimmel said.<br><br>
+
+With 26.5 million viewers this year, Oscars ratings dropped 19 percent in 2018 from what they were in 2017 and hit an all-time low. The nearly four-hour broadcast averaged an 18.9 rating among households between 8 p.m and 11 p.m. ET. <br><br>
+		</p>
+      </div>
+	</div>
+	
+	<div id='main-footer'>
+	<a class='button' href='https://www.facebook.com/'><img alt='Facebook' src="img/Facebook.png" width="50"></a>
+	<a class='button' href='https://www.instagram.com/?hl=en'><img alt='Instagram' src="img/instagram.png" width="50"></a>
+	<a class='button' href='https://twitter.com/?lang=en'><img alt='Twitter' src="img/twitter.png" width="50"></a>
+	<a class='button' href='https://create.snapchat.com/'><img alt='Snapchat' src="img/snapchat.png" width="50"></a>
+  <p>Ellen Culloo&copy 2018</p>
+</div>
+	
+</body>
+
+</html>
